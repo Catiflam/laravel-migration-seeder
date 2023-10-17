@@ -16,6 +16,7 @@
 
   <main>
     @yield('main-content')
+    @yield('main-section')
   </main>
 
 </body>
