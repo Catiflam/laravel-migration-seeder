@@ -5,7 +5,7 @@
 <section class="container mt-5">
   @forelse($trains as $train)
       <p>
-        <strong>Azienda</strong>: {{ $train->azienda }} <br>
+        <strong>Azienda</strong>: {{ $train->name }} <br>
       
       </p>
       <hr>
